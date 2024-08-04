@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarmitasSemanais"
+    android:background="#27AE60">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/marmita"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-220dp"
+        android:text="Marmitas Semanais"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="372dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="-170dp"
+        android:layout_marginEnd="-375dp"
+        android:text="Marmitas semanais são refeições preparadas e divididas em porções individuais, ideais para toda a semana. Elas garantem conveniência e nutrição balanceada, economizando tempo na preparação diária das refeições."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Adicionar ao Carrinho"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        tools:layout_editor_absoluteX="17dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

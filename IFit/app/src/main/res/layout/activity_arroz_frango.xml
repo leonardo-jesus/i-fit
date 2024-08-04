@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArrozFrango"
+    android:background="#27AE60">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="404dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrozfrango" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Arroz com Frango"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="17dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="367dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="21dp"
+        android:text="Este prato saudável combina arroz integral cozido com pedaços suculentos de frango grelhado e uma variedade de legumes frescos. O arroz integral fornece fibras e carboidratos complexos para uma energia sustentada, enquanto o frango é uma excelente fonte de proteína magra. "
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="17dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Adicionar ao carrinho"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:layout_editor_absoluteX="210dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

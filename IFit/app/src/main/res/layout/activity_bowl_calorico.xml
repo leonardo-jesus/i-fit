@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BowlCalorico"
+    android:background="#27AE60">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-210dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bowl"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-240dp"
+        android:text="Bowl Calórico"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="352dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="-180dp"
+        android:text="Este bowl saudável é cheio de nutrientes e sabor. Com quinoa ou arroz integral, vegetais assados, como brócolis e abóbora, e proteína magra, como frango grelhado ou tofu."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Adicionar ao Carrinho"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:layout_editor_absoluteX="19dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
